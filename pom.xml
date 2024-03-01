@@ -65,7 +65,7 @@
             <!-- Default configuration for running with: mvn clean javafx:run -->
             <id>default-cli</id>
             <configuration>
-              <mainClass>edu.ntnu.stud.javafxcardgame/edu.ntnu.stud.javafxcardgame.HelloApplication</mainClass>
+              <mainClass>edu.ntnu.stud.cardgame.HelloApplication</mainClass>
               <launcher>app</launcher>
               <jlinkZipName>app</jlinkZipName>
               <jlinkImageName>app</jlinkImageName>

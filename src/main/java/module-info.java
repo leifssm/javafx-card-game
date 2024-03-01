@@ -4,6 +4,6 @@ module edu.ntnu.stud.javafxcardgame {
   requires org.jetbrains.annotations;
 
 
-  opens edu.ntnu.stud.javafxcardgame to javafx.fxml;
-    exports edu.ntnu.stud.javafxcardgame;
+  opens edu.ntnu.stud.cardgame to javafx.fxml;
+    exports edu.ntnu.stud.cardgame;
 }

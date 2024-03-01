@@ -1,4 +1,4 @@
-package edu.ntnu.stud.javafxcardgame;
+package edu.ntnu.stud.cardgame;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
