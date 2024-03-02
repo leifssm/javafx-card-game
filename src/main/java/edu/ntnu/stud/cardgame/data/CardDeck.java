@@ -15,19 +15,19 @@ public class CardDeck {
     }
   }
 
-  public Card[] dealHand(int n) {
+  public ArrayList<Card> dealHand(int n) {
     if (n < 1) {
       throw new IllegalArgumentException("Invalid hand size");
     }
     if (n > cards.size()) {
       throw new IllegalArgumentException("Not enough cards in deck");
     }
-    Card[] hand = new Card[n];
+    ArrayList<Card> hand = new ArrayList<>();
 
     int pickedCard;
     for (int i = 0; i < n; i++) {
       pickedCard = rand.nextInt(cards.size());
-      hand[i] = cards.remove(pickedCard);
+      hand.add(cards.remove(pickedCard));
     }
     return hand;
   }
