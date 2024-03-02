@@ -27,6 +27,10 @@ public class Card {
       default -> throw new IllegalArgumentException("Invalid suit number");
     };
   }
+  public Card(int suitNumber, int value) {
+    this(convertNumberToSuit(suitNumber), value);
+  }
+
   public Card(Suit suit, int value) {
     this.suit = suit;
     if (value < 1 || value > 13) {

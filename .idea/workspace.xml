@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be2766ba-0592-4b69-9d47-597ac9487abb" name="Changes" comment="inital commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/ntnu/stud/cardgame/data/Card.java" afterDir="false" />
+    <list default="true" id="be2766ba-0592-4b69-9d47-597ac9487abb" name="Changes" comment="added card class">
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/ntnu/stud/cardgame/data/CardCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/ntnu/stud/cardgame/data/CardDeck.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/ntnu/stud/javafxcardgame/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/ntnu/stud/cardgame/HelloApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/ntnu/stud/javafxcardgame/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/ntnu/stud/cardgame/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/edu/ntnu/stud/javafxcardgame/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/edu/ntnu/stud/cardgame/hello-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/ntnu/stud/cardgame/data/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/ntnu/stud/cardgame/data/Card.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +100,7 @@
       <option name="presentableId" value="Default" />
       <updated>1709323417049</updated>
       <workItem from="1709323418095" duration="200000" />
-      <workItem from="1709323634185" duration="1227000" />
+      <workItem from="1709323634185" duration="3350000" />
     </task>
     <task id="LOCAL−00001" summary="inital commit">
       <option name="closed" value="true" />
@@ -112,7 +109,21 @@
       <option name="presentableId" value="LOCAL−00001" />
       <updated>1709324068189</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL−00002" summary="renamed groupid">
+      <option name="closed" value="true" />
+      <created>1709325036525</created>
+      <option name="number" value="LOCAL−00002" />
+      <option name="presentableId" value="LOCAL−00002" />
+      <updated>1709325036525</updated>
+    </task>
+    <task id="LOCAL−00003" summary="added card class">
+      <option name="closed" value="true" />
+      <created>1709325057371</created>
+      <option name="number" value="LOCAL−00003" />
+      <option name="presentableId" value="LOCAL−00003" />
+      <updated>1709325057371</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,6 +131,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="inital commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="inital commit" />
+    <MESSAGE value="renamed groupid" />
+    <MESSAGE value="added card class" />
+    <option name="LAST_COMMIT_MESSAGE" value="added card class" />
   </component>
 </project>
