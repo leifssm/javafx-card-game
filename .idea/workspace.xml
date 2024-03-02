@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be2766ba-0592-4b69-9d47-597ac9487abb" name="Changes" comment="inital commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/ntnu/stud/cardgame/data/Card.java" afterDir="false" />
+    <list default="true" id="be2766ba-0592-4b69-9d47-597ac9487abb" name="Changes" comment="added card collection class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/ntnu/stud/javafxcardgame/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/ntnu/stud/cardgame/HelloApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/ntnu/stud/javafxcardgame/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/ntnu/stud/cardgame/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/edu/ntnu/stud/javafxcardgame/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/edu/ntnu/stud/cardgame/hello-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/ntnu/stud/cardgame/data/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/ntnu/stud/cardgame/data/Card.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/ntnu/stud/cardgame/data/CardCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/ntnu/stud/cardgame/data/CardCollection.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +22,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
@@ -103,7 +104,7 @@
       <option name="presentableId" value="Default" />
       <updated>1709323417049</updated>
       <workItem from="1709323418095" duration="200000" />
-      <workItem from="1709323634185" duration="1227000" />
+      <workItem from="1709323634185" duration="4803000" />
     </task>
     <task id="LOCAL−00001" summary="inital commit">
       <option name="closed" value="true" />
@@ -112,14 +113,79 @@
       <option name="presentableId" value="LOCAL−00001" />
       <updated>1709324068189</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL−00002" summary="renamed groupid">
+      <option name="closed" value="true" />
+      <created>1709325036525</created>
+      <option name="number" value="LOCAL−00002" />
+      <option name="presentableId" value="LOCAL−00002" />
+      <updated>1709325036525</updated>
+    </task>
+    <task id="LOCAL−00003" summary="added card class">
+      <option name="closed" value="true" />
+      <created>1709325057371</created>
+      <option name="number" value="LOCAL−00003" />
+      <option name="presentableId" value="LOCAL−00003" />
+      <updated>1709325057371</updated>
+    </task>
+    <task id="LOCAL−00004" summary="added card deck class">
+      <option name="closed" value="true" />
+      <created>1709373132444</created>
+      <option name="number" value="LOCAL−00004" />
+      <option name="presentableId" value="LOCAL−00004" />
+      <updated>1709373132444</updated>
+    </task>
+    <task id="LOCAL−00005" summary="added card deck class">
+      <option name="closed" value="true" />
+      <created>1709373224468</created>
+      <option name="number" value="LOCAL−00005" />
+      <option name="presentableId" value="LOCAL−00005" />
+      <updated>1709373224468</updated>
+    </task>
+    <task id="LOCAL−00006" summary="added card collection class">
+      <option name="closed" value="true" />
+      <created>1709373245117</created>
+      <option name="number" value="LOCAL−00006" />
+      <option name="presentableId" value="LOCAL−00006" />
+      <updated>1709373245117</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="main" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="inital commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="inital commit" />
+    <MESSAGE value="renamed groupid" />
+    <MESSAGE value="added card class" />
+    <MESSAGE value="added card deck class" />
+    <MESSAGE value="added card collection class" />
+    <option name="LAST_COMMIT_MESSAGE" value="added card collection class" />
   </component>
 </project>
