@@ -1,5 +1,7 @@
 package edu.ntnu.stud.cardgame.data;
 
+import org.jetbrains.annotations.NotNull;
+
 public class Card {
   private final Suit suit;
   private final int value;
@@ -16,6 +18,14 @@ public class Card {
     Suit(String s, String c) {
       this.symbol = s;
       this.color = c;
+    }
+
+    public String getSymbol() {
+      return symbol;
+    }
+
+    public String getColor() {
+      return color;
     }
   }
   public static Suit convertNumberToSuit(int number) throws IllegalArgumentException {
@@ -72,5 +82,9 @@ public class Card {
     }
     Card other = (Card) obj;
     return suit == other.suit && value == other.value;
+  }
+
+  public String getStringRepresentation() {
+    return suit.getSymbol() + getValue();
   }
 }
