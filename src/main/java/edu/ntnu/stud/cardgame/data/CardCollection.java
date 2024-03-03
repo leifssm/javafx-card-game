@@ -37,20 +37,19 @@ public class CardCollection {
   }
 
   public String getAllHearts() {
-    if (cards.isEmpty()) {
-      return "No Hearts";
-    }
-    return cards
+    String hearts = cards
         .stream()
         .filter(card -> card.getSuit() == Card.Suit.HEARTS)
         .map(Card::getStringRepresentation)
         .reduce("", (a, b) -> a + " " + b);
+
+    return hearts.isEmpty() ? "No hearts" : hearts;
   }
 
   public boolean hasQueenOfSpades() {
     return cards
         .stream()
-        .anyMatch(card -> "♠Q".equals(card.getStringRepresentation()));
+        .anyMatch(card -> card.getStringRepresentation().equals("♠Q"));
   }
 
   public boolean is5Flush() {
@@ -62,5 +61,9 @@ public class CardCollection {
         .map(Card::getSuit)
         .distinct()
         .count() == 1;
+  }
+
+  public void discard() {
+    cards.clear();
   }
 }

@@ -20,7 +20,9 @@ public class CardDeck {
       throw new IllegalArgumentException("Invalid hand size");
     }
     if (n > cards.size()) {
-      throw new IllegalArgumentException("Not enough cards in deck");
+      ArrayList<Card> hand = new ArrayList<>(cards);
+      cards.clear();
+      return hand;
     }
     ArrayList<Card> hand = new ArrayList<>();
 
